@@ -23,7 +23,7 @@ const data = [
         "Domínios de atualização",
         "Pares de regiões", 
         "Uma Geografia"],
-      answer: ["Domínio de Atualizações"],
+      answer: "Domínios de atualização",
     },
     {
       question: "Qual recurso de computação do azure pode ser implantado para gerenciar um conjunto de máquinas virtuais idênticas?",
