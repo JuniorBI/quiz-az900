@@ -54,13 +54,67 @@ const data = [
       answer: "NaaS",
     },
     {
-      question: "Qual objeto do Azure contém múltiplos datacenters que são conectados por uma rede de baixa latência?",
+      question: "Quais das opções a seguir você pode usar para vincular redes virtuais?",
       options: [
-        "Uma Geografia",
-        "Uma Região",
-        "Um Conjunto de disponibilidade",
-        "Um Par"],
-      answer: "Uma Região",
+        "Conversão de endereços de rede",
+        "agregação de link de vários chassis",
+        "Protocolo DHCP",
+        "Emparelhamento de rede virtual"],
+      answer: "Emparelhamento de rede virtual",
+    },
+    {
+      question: "Qual das opções a seguir não é um benefício do expressRoute?",
+      options: [
+        "conectividade redundante",
+        "Taxa de transferência de rede consistente",
+        "Comunicação de rede criptografada",
+        "Acesso aos serviços em nuvem da Microsoft"],
+      answer: "Comunicação de rede criptografada",
+    },
+    {
+      question: "Qual é a primeira etapa que você seguiria para compartilhar um arquivo de imagem como um blob no Armazenamento do Azure?",
+      options: [
+        "Criar um contêiner do Armazenamento do Azure para armazenar a imagem",
+        "Criar uma conta do Armazenamento do Azure",
+        "Carregue o arquivo de imagem e crie um contêiner",
+        "Use um token SAS para restringir o acesso à imagem"],
+      answer: "Criar uma conta do Armazenamento do Azure",
+    },
+    {
+      question: "Sua equipe de desenvolvimento está interessada em escrever aplicativos baseados em Graph que aproveitem a API do Gremlin. Qual opção seria ideal para esse cenário?",
+      options: [
+        "Azure Cosmos DB",
+        "Banco de Dados SQL do Azure",
+        "Azure Databricks",
+        "Banco de dados do Azure para PostgreSQL"],
+      answer: "Azure Cosmos DB",
+    },
+    {
+      question: "Quais dos serviços do azure a seguir possuem modelos pré-treinados disponíveis para enviar dados para previsões?",
+      options: [
+        "Serviços Cognitivos do Azure",
+        "Assistente do Azure",
+        "Azure Machine Learning",
+        "Hub IoT do Azure"],
+      answer: "Serviços Cognitivos do Azure",
+    },
+    {
+      question: "Como parte do Azure DevOps, qual serviço você usaria na adoção de CI/CD para uma equipe de desenvolvedores?",
+      options: [
+        "Assistente do Azure",
+        "Azure Boards",
+        "Azure Test Plants",
+        "Azure Pipelines"],
+      answer: "Azure Pipelines",
+    },
+    {
+      question: "Você quer orquestrar um fluxo de trabalho usando APIs de vários serviços conhecidos. Qual é a melhor opção para este cenários?",
+      options: [
+        "Assistente do Azure",
+        "Funções do Azure",
+        "Aplicativos lógicos do Azure",
+        "Azure Pipelines"],
+      answer: "Aplicativos lógicos do Azure",
     },
   ];
   
