@@ -116,6 +116,156 @@ const data = [
         "Azure Pipelines"],
       answer: "Aplicativos lógicos do Azure",
     },
+    {
+      question: "O que siginifica computação em nuvem?",
+      options: [
+        "Entrega de serviçps de computação pela internet",
+        "Configuração do seu próprio data center",
+        "Uso da Internet para meios corporativos",
+        "Rede interna"],
+      answer: "Entrega de serviçps de computação pela internet",
+    },
+    {
+      question: "Qual da opções a seguir não é um recurso da computação em nuvem?",
+      options: [
+        "Inovação mais rápida",
+        "Um pool limitado de serviços",
+        "Reconhecimento de fala e outros serviços cognitivos"],
+      answer: "Um pool limitado de serviços",
+    },
+    {
+      question: "Qual da opções a seguir é verdadeira?",
+      options: [
+        "Com as OpEx, você é responsável por comprar e manter seus recursos de computação",
+        "Com as OpEx, você é responsável somente pelos recursos de computação que usa",
+        "Com as CapEx, você é responsável somente pelos recursos de computação que usa"],
+      answer: "Com as OpEx, você é responsável somente pelos recursos de computação que usa",
+    },
+    {
+      question: "Qual das opções a seguir é um tipo de computação em nuvem?",
+      options: [
+        "Nuvem distribuída",
+        "Nuvem híbrida",
+        "Nuvem privada",
+        "Nuvem pública"],
+      answer: "Nuvem distribuída",
+    },
+    {
+      question: "Qual das alternativas a seguir pode ser usada para gerenciar a governança entre várias assinaturas do Azure?",
+      options: [
+        "Iniciativas Azure",
+        "Grupos de Gerenciamento",
+        "Grupos de recursos"],
+      answer: "Grupos de Gerenciamento",
+    },
+    {
+      question: "Qual das opções a seguir não é um benefício de usar serviços de nuvem?",
+      options: [
+        "Escalabilidade",
+        "Recuperação de desastres",
+        "Alta disponibilidade",
+        "Isolamento geográfico"],
+      answer: "Isolamento geográfico",
+    },
+    {
+      question: "Qual das alternativas é uma unidade lõgica dos serviços do Azure vinculadas a uma conta do Azure?",
+      options: [
+        "Assinatura do Azure",
+        "Grupo de gerenciamento",
+        "Grupos de recursos",
+        "Nuvem pública"],
+      answer: "Assinatura do Azure",
+    },
+    {
+      question: "Qual dos recursos a seguir não se aplica aos grupos de recursos?",
+      options: [
+        "Os recursos podem estar em apenas um grupo de recursos",
+        "O controle de acesso baseado em função pode ser aplicado ao grupo de recursos",
+        "Os grupos de recursos podem ser aninhados"],
+      answer: "Os grupos de recursos podem ser aninhados",
+    },
+    {
+      question: "Qual recurso de Computação do Azure pode ser implantado para gerenciar um conjunto de máquinas virtuais idênticas?",
+      options: [
+        "Conjuntos de escala de máquina virtual",
+        "Conjuntos de disponibilidade de máquina virtual",
+        "Zonas de disponibilidade da máquina virtual"],
+      answer: "Conjuntos de escala de máquina virtual",
+    },
+    {
+      question: "Quais dos seguintes serviços devem ser usados quando a principal preocupação é executar o trabalho em resposta a um evento que precisa de uma resposta em alguns segundos?",
+      options: [
+        "Azure Functions",
+        "Serviços de aplicativos do Azure",
+        "Instâncias de Container do Azure ",
+        "Instância pública"],
+      answer: "Azure Functions",
+    },
+    {
+      question: "Qual recurso do Azure AD (Azure Active Directory) é usado para fornecer acesso a recursos com base em políticas organizacionais?",
+      options: [
+        "MFA (autenticação multifator)",
+        "SSO (logon único)",
+        "unidades administrativas",
+        "Acesso condicional"],
+      answer: "Acesso condicional",
+    },
+    {
+      question: "O SSO (logon único) é um método de ___________ que permite que os usuários entrem pela primeira vez e acessem vários aplicativos e recursos usando a mesma senha?",
+      options: [
+        "validação",
+        "autenticação",
+        "configuração",
+        "autorização"],
+      answer: "autenticação",
+    },
+    {
+      question: "__________ é um conjunto repetível de ferramentas de governança que ajuda as equipes de desenvolvimento a compilar e criar ambientes rapidamente, aderindo à conformidade organizacional para acelerar o desenvolvimento e a implantação.",
+      options: [
+        "Azure DevOps",
+        "Uma configuração de pipeline de CI/CD (integração contínua/implantação contínua)",
+        "Azure Blueprints",
+        "Azure Policy"],
+      answer: "Azure Blueprints",
+    },
+    {
+      question: "Qual abordagem de nuvem é usada pelas organizações para aproveitar ao máximo os investimentos em tecnologia local e permite que dados e aplicativos sejam compartilhados entre dois ambientes?",
+      options: [
+        "nuvem pública",
+        "nuvem privada",
+        "nuvem híbrida",
+        "datacenter local"],
+      answer: "nuvem híbrida",
+    },
+    {
+      question: "___________ copia dados da região primária para uma região secundária em vários datacenters localizados a muitos quilômetros de distância. abordagem de nuvem é usada pelas organizações para aproveitar ao máximo os investimentos em tecnologia local e permite que dados e aplicativos sejam compartilhados entre dois ambientes?",
+      options: [
+        "Armazenamento Premium",
+        "ZRS (Armazenamento com redundância de zona)",
+        "Armazenamento com redundância geográfica (GRS)",
+        "Armazenamento com redundância local (LRS)"],
+      answer: "Armazenamento com redundância geográfica (GRS)",
+    },
+    {
+      question: "Qual camada de defesa em profundidade usa proteção contra DDoS (negação de serviço distribuído)?",
+      options: [
+        "Camada de segurança física",
+        "Camada de perímetro",
+        "Camada de rede",
+        "Camada de aplicativo"],
+      answer: "Camada de perímetro",
+    },
+    {
+      question: "__________ tem suporte do ExpressRoute para conectar uma rede local ao Azure.",
+      options: [
+        "Uma VPN ponto a site",
+        "Uma conexão Ethernet ponto a ponto",
+        "Uma VPN site a site",
+        "Serviço de Emparelhamento do Azure"],
+      answer: "Uma conexão Ethernet ponto a ponto",
+    },
+    
+
   ];
   
   export default data;
