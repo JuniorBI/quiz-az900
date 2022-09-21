@@ -142,7 +142,7 @@ const data = [
       answer: "Com as OpEx, você é responsável somente pelos recursos de computação que usa",
     },
     {
-      question: "Qual das opções a seguir é um tipo de computação em nuvem?",
+      question: "Qual das opções a seguir não é um tipo de computação em nuvem?",
       options: [
         "Nuvem distribuída",
         "Nuvem híbrida",
