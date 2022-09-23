@@ -264,7 +264,107 @@ const data = [
         "Serviço de Emparelhamento do Azure"],
       answer: "Uma conexão Ethernet ponto a ponto",
     },
-    
+    {
+      question: "Um invasor pode derrubar seu site enviando um grande volume de tráfego de rede para seus servidores. Qual serviço do Azure pode ajudar uma empresa a proteger sua instância do Serviço de Aplicativo contra esse tipo de ataque?",
+      options: [
+        "Firewall do Azure",
+        "Grupos de segurança de rede",
+        "Proteção contra DDoS do Azure"],
+      answer: "Proteção contra DDoS do Azure",
+    },
+    {
+      question: "Como uma empresa pode implementar com mais facilidade uma política de negar por padrão para que as VMs não possam se conectar entre si?",
+      options: [
+        "Aloque cada VM em uma rede virtual própria.",
+        "Crie uma regra de grupo de segurança de rede que impeça o acesso de outra VM na mesma rede.",
+        "Configure a Proteção contra DDoS do Azure para limitar o acesso à rede na rede virtual."],
+      answer: "Crie uma regra de grupo de segurança de rede que impeça o acesso de outra VM na mesma rede.",
+    },
+    {
+      question: "Qual tipo de dados está ativamente movendo-se de um local para outro, tanto na Internet como na rede particular?",
+      options: [
+        "Imutáveis",
+        "Em trânsito",
+        "Inativos",
+        "Na nuvem"],
+      answer: "Em trânsito",
+    },
+    {
+      question: "Como uma empresa verifica se determinadas cargas de trabalho de VM estão fisicamente isoladas das cargas de trabalho executadas por outros clientes do Azure?",
+      options: [
+        "Configure a rede para que as VMs em um mesmo host físico fiquem isoladas.",
+        "Isso não é possível. Essas cargas de trabalho precisam ser executadas localmente.",
+        "Execute as VMs no Host Dedicado do Azure."],
+      answer: "Execute as VMs no Host Dedicado do Azure.",
+    },
+    {
+      question: "Qual tipo de ataque tenta sobrecarregar e esgotar os recursos de um aplicativo, tornando-o lento ou sem resposta a usuários legítimos?",
+      options: [
+        "Negação de serviço distribuída (DDoS)",
+        "Ataque de solicitação de recursos (RRA)",
+        "Ataque man-in-the-middle",
+        "Desvio de firewall"],
+      answer: "Negação de serviço distribuída (DDoS)",
+    },
+    {
+      question: "Qual é a maneira mais fácil para uma empresa combinar os dados de segurança de todas as ferramentas de monitoramento em um só relatório, com base no qual eles possam tomar medidas?",
+      options: [
+        "Colete dados de segurança no Azure Sentinel.",
+        "Crie uma ferramenta personalizada que colete dados de segurança e exiba um relatório por meio de um aplicativo Web.",
+        "Examine cada log de segurança diariamente e envie um resumo por email à equipe."],
+      answer: "Colete dados de segurança no Azure Sentinel.",
+    },
+    {
+      question: "Como uma empresa pode impor que apenas determinados aplicativos sejam executados em suas VMs?",
+      options: [
+        "Conecte as VMs ao Azure Sentinel.",
+        "Crie uma regra de controle de aplicativo na Central de Segurança do Azure.",
+        "Execute periodicamente um script que liste os processos em execução em cada VM. Então, o gerente de TI pode desligar todos os aplicativos que não deveriam estar em execução."],
+      answer: "Crie uma regra de controle de aplicativo na Central de Segurança do Azure.",
+    },
+    {
+      question: "Qual camada de defesa em profundidade é focada em prever ataques baseados em rede?",
+      options: [
+        "Camada de dados",
+        "Camada de acesso e identidade",
+        "Camada de perímetro",
+        "Camada de computação"],
+      answer: "Camada de perímetro",
+    },
+    {
+      question: "Qual serviço do Azure você usaria para executar suas máquinas virtuais em um ambiente que assegure que estão isoladas de outras máquinas virtuais?",
+      options: [
+        "Zona de disponibilidade",
+        "Conjunto de disponibilidade",
+        "Hosts Dedicados do Azure",
+        "Instâncias de VM Reservadas do Azure"],
+      answer: "Hosts Dedicados do Azure",
+    },
+    {
+      question: "Qual estratégia implanta uma série de mecanismos para reduzir o avanço de um ataque que busca obter acesso a dados não autorizados?",
+      options: [
+        "Ciphertext",
+        "Segurança Blob",
+        "Camadas de segurança da rede",
+        "Defesa em profundidade"],
+      answer: "Defesa em profundidade",
+    },
+    {
+      question: "Qual é a melhor maneira para a Tailwind Traders armazenar seus certificados com segurança, para que eles fiquem acessíveis às VMs da nuvem?",
+      options: [
+        "Coloque os certificados em um compartilhamento de rede.",
+        "Armazene-os em uma VM protegida por uma senha.",
+        "Armazene os certificados no Azure Key Vault."],
+      answer: "Armazene os certificados no Azure Key Vault.",
+    },
+    {
+      question: "Qual é a melhor maneira de a Tailwind Trades limitar todo o tráfego de saída de VMs para hosts conhecidos?",
+      options: [
+        "Configurar a Proteção contra DDoS do Azure para limitar o acesso à rede a hosts e portas confiáveis.",
+        "Criar regras de aplicativo no Firewall do Azure.",
+        "Garantir que todos os aplicativos em execução se comuniquem apenas com portas e hosts confiáveis."],
+      answer: "Criar regras de aplicativo no Firewall do Azure.",
+    },
 
   ];
   
